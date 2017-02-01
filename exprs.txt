@@ -1,0 +1,20 @@
+1, short is usually 16 bits, long is 32 bits, and int is the natural size
+for the computer (either 16 or 32). Double is not listed in the
+text. However, for float, it is a floating point value, and is a
+decimal. Its min value is 1.1754943508e-38, and max is 3.4028234664e+38.
+For short ints, -32768 is the minimum value, and the maximum is 32767. Ints
+are much bigger, and longs... well, they're huge. -2147483648 is the
+minimum value for integers, and 2147483647 is the maximum. I could explain
+why the minimum values are like that using Two's Compliment, but it's far
+too late at night for me to do that. BACK TO WHAT I'M SUPPOSED TO DO!
+Long's min value is -9223372036854775808 and the max is
+9223372036854775807.
+
+2. The answer is three. Because of the way that the declaration is set up,
+y is the only thing that is a float. The computer treats it as an integer
+up until the very last second: if it had been declared with (2.0 +
+5.0)/2.0, then the answer would have been 3.50
+
+3. i, j, and y are all equal to one after the code is executed. x is equal
+to zero, as its value is incremented after its use because the increment
+operator is after the i. So, i is incremented, but not x.
